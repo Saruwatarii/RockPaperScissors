@@ -4,7 +4,7 @@ Rock, paper, scissors is a well-known hand game. Each one of two players simulta
 This version can be played against the computer.
 
 The program:
-1. Ask for the user name:`Enter your name`  and greet the the user with **Hello**, **<name>**
+1. Ask for the user name:`Enter your name`  and greet the the user with **Hello**, **<**name**>**
 2. Read a file named `rating.txt` and check if the user name is in that file; if yes, the score from that file will be used. If no, the starting scorce will be 0.
 3. Output: 
   
