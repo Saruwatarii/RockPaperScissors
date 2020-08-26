@@ -4,16 +4,21 @@ Rock, paper, scissors is a well-known hand game. Each one of two players simulta
 This version can be played against the computer.
 
 The program:
-1. Ask for the user name:`Enter your name`  and greet the the user with **Hello, <**name>
+1. Ask for the user name:`Enter your name`  and greet the the user with **Hello**, **<name>**
 2. Read a file named `rating.txt` and check if the user name is in that file; if yes, the score from that file will be used. If no, the starting scorce will be 0.
-3. Output: `Enter blank if you want the default game (rock, paper, scissors)
-`If you want more option, please provide a list of option that is seperated by a comma.
+3. Output: 
+  
+```Enter blank if you want the default game (rock, paper, scissors)
+
+If you want more option, please provide a list of option that is seperated by a comma.
 
 For example :  rock,fire,paper,water
 
 Below you see the full list of option
 
-rock, gun, lightning, devil, dragon, water, air, paper, sponge, wolf, tree, human, snake, scissors, fire `
+rock, gun, lightning, devil, dragon, water, air, paper, sponge, wolf, tree, human, snake, scissors, fire 
+```
+
 4. Output a line `Okay, let's start`
 5. Play the game by writing in one option.
 6. If input is incorrect, it outputs `Invalid input`, and start at nr 5.
