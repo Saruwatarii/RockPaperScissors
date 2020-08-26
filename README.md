@@ -25,9 +25,9 @@ rock, gun, lightning, devil, dragon, water, air, paper, sponge, wolf, tree, huma
 7. If the input is !exit, the ouput  is `Bye!` and the game stop
 8. If the input is one of the option, then the computer chooses a random option.
 9. Output the result of the game like:
-  . Lose -> `Sorry, butthe computer chose <option>`
-  . Draw -> `There is a draw <option>`
-  . Win -> "Well done. The computer chose <option> and failed.
+  - Lose -> `Sorry, butthe computer chose <option>`
+  - Draw -> `There is a draw <option>`
+  - Win -> "Well done. The computer chose <option> and failed.
 10. The scoring system gets updated if the user gets draw or win, if the user loses nothing changes. For each win the score add 100 to the user score, and 50 if draw.
 11. After a game, it starts again with the option the user choose in the beginning before starting the game.
   
